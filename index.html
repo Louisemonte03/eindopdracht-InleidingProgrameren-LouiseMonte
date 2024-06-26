@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=>, initial-scale=1.0" />
+    <title>timer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="sec-timer">
+      <h1>Win binnen 20 seconden 5 keer</h1>
+      <h2>Ik zou maar snel klikken....</h2>
+      <p id="timer">0</p>
+      <button id="startKnop">Start</button>
+      <button id="stopKnop">Stop</button>
+      <button id="resetKnop">Reset</button>
+    </section>
+
+    <section class="spinner">
+      <div class="gokautomaat">
+        <div class="wielen">
+          <div class="wiel" id="wiel1">🍔</div>
+          <div class="wiel" id="wiel2">🍔</div>
+          <div class="wiel" id="wiel3">🍔</div>
+        </div>
+        <button id="draai-knop">Spin</button>
+        <div id="resultaat"></div>
+        <div id="score">
+          <p>Punten: <span id="winst">0</span></p>
+        </div>
+      </div>
+    </section>
+    <audio src="sound/sound.mp4"></audio>
+    <script src="script.js"></script>
+  </body>
+</html>

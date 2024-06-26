@@ -1,0 +1,107 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.gokautomaat {
+  text-align: center;
+  background-color: #f1ecb3;
+  padding: 5px;
+}
+
+.wielen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.wiel {
+  font-size: 2em;
+  margin: 0 20px;
+}
+
+#draai-knop {
+  padding: 5px 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #9db6d1;
+  color: #fff;
+}
+
+#draai-knop:hover {
+  background-color: #0056b3;
+}
+
+#resultaat {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #333;
+}
+
+#score {
+  font-size: 20px;
+  color: #333;
+}
+
+.sec-timer {
+  position: fixed;
+  top: 5px;
+  left: 5px;
+  background-color: #f9f9f9;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.sec-timer h1 {
+  font-size: 10px;
+  margin: 0 0 3px;
+  color: #333;
+}
+.sec-timer h2 {
+  font-size: 10px;
+  margin: 0 0 3px;
+  color: #f40505;
+}
+
+.sec-timer p {
+  font-size: 8px;
+  font-weight: bold;
+  margin: 0 0 5px;
+  color: #e74c3c;
+}
+
+.sec-timer button {
+  font-size: 10px;
+  margin: 0 2px;
+  padding: 3px 6px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#startKnop {
+  background-color: #2ecc71;
+  color: #fff;
+}
+
+#stopKnop {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+#resetKnop {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.sec-timer button:hover {
+  opacity: 0.9;
+}
