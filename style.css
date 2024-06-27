@@ -12,17 +12,21 @@ body {
   padding: 30px;
 }
 
+
+
+
+
 .wielen {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 5px;
-  padding: 20px;
 }
 
 .wiel {
-  font-size: 4em;
+  font-size: 20em;
   margin: 0 20px;
+  padding: 20px;
 }
 
 #draai-knop {
