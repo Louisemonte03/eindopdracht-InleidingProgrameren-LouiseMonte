@@ -13,9 +13,6 @@ body {
 }
 
 
-
-
-
 .wielen {
   display: flex;
   justify-content: center;
@@ -24,7 +21,7 @@ body {
 }
 
 .wiel {
-  font-size: 20em;
+  font-size: 4em;
   margin: 0 20px;
   padding: 20px;
 }
