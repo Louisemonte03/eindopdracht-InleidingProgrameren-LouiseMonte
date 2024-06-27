@@ -12,7 +12,6 @@ body {
   padding: 30px;
 }
 
-
 .wielen {
   display: flex;
   justify-content: center;
@@ -29,7 +28,6 @@ body {
 #draai-knop {
   padding: 10px 15px;
   cursor: pointer;
-  border: none;
   background-color: #9db6d1;
   color: #fff;
 }
@@ -54,7 +52,7 @@ body {
   top: 5px;
   left: 5px;
   background-color: #ffe2e2;
-  padding: 5px;  
+  padding: 5px;
   font-family: Arial, sans-serif;
 }
 

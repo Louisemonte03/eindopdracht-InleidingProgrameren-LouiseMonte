@@ -66,7 +66,7 @@ function checkWin(wiel1, wiel2, wiel3) {
 document.getElementById("draai-knop").addEventListener("click", spin);
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-// Joost heeft mij geholpen met het maken van dit spel. 
+// Joost heeft mij geholpen met het maken van dit spel.
 // sound https://www.youtube.com/watch?v=rr5CMS2GtCY
 // Afbeeldinen zijn van Apple https://www.apple.com
 // sound effect heeft Joost mij bij geholpen.
